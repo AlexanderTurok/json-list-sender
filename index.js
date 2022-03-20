@@ -6,9 +6,9 @@ const http  = require("http");
 // and import like this
 const data  = require("./data.json");
 
-const API = ""; // place your link to api
-const hostname = ""; // place your ip 
-const port = 0; // place here your port
+const API = "http://localhost:8080/beat"; // place your link to api
+const hostname = "localhost"; // place your ip 
+const port = 5000; // place here your port
 
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
