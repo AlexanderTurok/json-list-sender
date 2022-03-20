@@ -1,7 +1,9 @@
+
 const axios = require("axios");
 const http  = require("http");
 
-// import your json
+// add json to src folder
+// and import like this
 const data  = require("./data.json");
 
 const API = ""; // place your link to api
@@ -11,7 +13,7 @@ const port = 0; // place here your port
 const server = http.createServer((req, res) => {
   res.statusCode = 200;
   res.setHeader('Content-Type', 'text/plain');
-  res.end('Server Create Successfully...');
+  res.end('Server Created Successfully...');
 });
 
 const parse = (data) => {
