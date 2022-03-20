@@ -18,7 +18,6 @@
   },
   "homepage": "https://github.com/AlexanderTurok/json-parse#readme",
   "dependencies": {
-    "axios": "^0.26.1",
-    "http": "^0.0.1-security"
+    "axios": "^0.26.1"
   }
 }
