@@ -7,8 +7,8 @@ const data  = require("./data.json");
 const API = ""; // place your link to api
 
 // --------------------------------------
-const parse = (data) => {
-  data.map((item) => {
+const parse = async (data) => {
+  await data.map((item) => {
     axios.post(API, 
       item
     )
