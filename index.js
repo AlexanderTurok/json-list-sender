@@ -2,11 +2,10 @@
 // install axios and import
 const axios = require("axios");
 
-// setup
+// import json list
 const data  = require("./data.json");
 const API = "hhtp://localhost:8080/beat"; // place your link to api
 
-// --------------------------------------
 const parse = async (data) => {
   await data.map((item) => {
     axios.post(API, 
@@ -15,5 +14,5 @@ const parse = async (data) => {
   })
 }
 
-// to start app simply type node index.js
+// to start type node index.js
 parse(data);
